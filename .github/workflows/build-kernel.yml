@@ -23,8 +23,8 @@ jobs:
       - name: Pull toolchain
         run: |
           wget -O clang.tar.gz ${{ env.CUSTOM_CLANG_SOURCE }}
-                mkdir clang-aosp
-                tar -C clang-aosp/ -zxvf clang.tar.gz
+                mkdir clang
+                tar -C clang/ -zxvf clang.tar.gz
 
       - name: Pull kernel source
         run: |
