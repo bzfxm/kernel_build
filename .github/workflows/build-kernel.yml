@@ -31,7 +31,7 @@ jobs:
       - name: Build kernel
         run: |
           export KBUILD_BUILD_USER="dymxm"
-          export KBUILD_BUILD_HOST="OmO"
+          export KBUILD_BUILD_HOST="O.o"
           export PATH=$GITHUB_WORKSPACE/clang/bin:${PATH}
           args="                  ARCH=arm64 \
                                   O=../out \
